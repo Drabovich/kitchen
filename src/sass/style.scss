@@ -184,6 +184,7 @@ body.scroll-lock {
     &.active {
         transform: translateY(0) scale(100%);
         background-color: rgba(0, 0, 0, 0.7);
+        transition: all .4s ease-in-out;
     }
 
     &__wrapper {
